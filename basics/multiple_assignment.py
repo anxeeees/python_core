@@ -5,3 +5,6 @@ print(name, age, attractive)
 
 Spongebob = Patrik = Sandy = 30
 print(Spongebob)
+
+
+
