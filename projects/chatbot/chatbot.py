@@ -22,4 +22,19 @@ counter = 0
 while counter <= number:
     print(str(counter) +" !")
     counter += 1
-print("Completed, have a nice day!")
+print("Let's test your programming knowledge.\n"
+      "Why do we use methods?\n"
+      "1. To repeat a statement multiple times.\n"
+      "2. To decompose a program into several small subroutines.\n"
+      "3. To determine the execution time of a program.\n"
+      "4. To interrupt the execution of a program.")
+
+answer_str = int(input())
+answer = True
+while answer:
+    if answer_str == 2:
+        print("Congratulations, have a nice day!")
+        answer = False
+    else:
+        print("Please, try again.")
+        answer_str = int(input())
